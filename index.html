@@ -1,175 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rushikesh Kene | Portfolio</title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">MyPortfolio</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <!-- HERO / HOME -->
+  <header class="hero">
+    <img src="Rushikeshkeneprofilepic.jpeg" class="profile-pic" alt="Rushikesh Kene">
+    <h1>Rushikesh Kene</h1>
+    <p>Engineering Student | Python & Web Developer</p>
   </header>
 
-  <section id="home" class="home-section">
-  <div class="home-content">
-    
-    <div class="home-text">
-      <h1>Hello, I'm <span>Rushikesh</span></h1>
-      <p>Creative Web Developer & Designer</p>
+  <!-- ABOUT -->
+  <section class="section">
+    <h2>About Me</h2>
+    <p>
+      I am an enthusiastic engineering student with a strong interest in
+      software development, machine learning, and real-world problem solving.
+      I enjoy learning new technologies and building practical projects.
+    </p>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section">
+    <h2>Education</h2>
+
+    <div class="card">
+      <h3>Bachelor of Engineering (Electronics and telecommunication)</h3>
+      <p><strong>College:</strong> Pr Pote Patil College of Engineering </p>
+      <p><strong>University:</strong> Sant Gadge Baba University Amravati</p>
+      <p><strong>Year:</strong> 2023 – 2027</p>
     </div>
 
-    <div class="home-image">
-      <img src="images/profile.jpg" alt="Profile Picture">
+    <div class="card">
+      <h3>Higher Secondary (12th)</h3>
+      <p><strong>Board:</strong> State Board</p>
+      <p><strong>Year:</strong> 2021 – 2022</p>
     </div>
 
-  </div>
-</section>
-
-      <!-- Project 1 -->
-      <div class="project-card">
-        <h3>Personal Portfolio</h3>
-        <p>
-          A fully responsive personal portfolio website designed to showcase
-          skills, projects, and contact information using modern UI principles.
-        </p>
-        <span class="project-tech">HTML • CSS • JavaScript</span>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="project-card">
-        <h3>Task Management App</h3>
-        <p>
-          A simple task manager that allows users to add, delete, and manage
-          daily tasks with smooth interactions.
-        </p>
-        <span class="project-tech">JavaScript • Local Storage</span>
-      </div>
-
-      <!-- Project 3 -->
-      <div class="project-card">
-        <h3>Business Landing Page</h3>
-        <p>
-          A modern landing page designed for a fictional business with a focus
-          on layout, typography, and responsiveness.
-        </p>
-        <span class="project-tech">HTML • CSS</span>
-      </div>
+    <div class="card">
+      <h3>Secondary School (10th)</h3>
+      <p><strong>Board:</strong> State Board</p>
+      <p><strong>Year:</strong> 2019 – 2020</p>
     </div>
-  </div>
-</section>
-<section id="contact" class="contact-section">
-  <div class="container">
-    <h2 class="section-title">Contact Us</h2>
+  </section>
 
-    <div class="contact-wrapper">
-      <!-- Contact Info -->
-      <div class="contact-info">
-        <h3>Let’s Connect</h3>
-        <p>
-          Have a project idea, collaboration, or just want to say hello?
-          Feel free to reach out. I’d love to hear from you.
-        </p>
-
-        <ul>
-          <li><strong>Email:</strong> example@mail.com</li>
-          <li><strong>Phone:</strong> +91 90000 00000</li>
-          <li><strong>Location:</strong> India</li>
-        </ul>
-      </div>
-
-      <!-- Contact Form -->
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+  <!-- SKILLS -->
+  <section class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>Machine Learning</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Git & GitHub</span>
+      <span>Arduino</span>
+      <span>Problem Solving</span>
     </div>
-  </div>   
-  <section id="contact" class="contact-section">
-  <div class="container">
-    <h2 class="section-title">Contact Us</h2>
+  </section>
 
-    <div class="contact-wrapper">
-      <!-- Contact Info -->
-      <div class="contact-info">
-        <h3>Let’s Connect</h3>
-        <p>
-          Have a project idea or want to collaborate?  
-          Feel free to reach out through any of the platforms below.
-        </p>
+  <!-- PROJECTS -->
+  <section class="section">
+    <h2>Projects</h2>
 
-        <ul class="contact-list">
-          <li>
-            <strong>Email:</strong>
-            <a href="mailto:example@mail.com">example@mail.com</a>
-          </li>
-
-          <li>
-            <strong>WhatsApp:</strong>
-            <a href="https://wa.me/919000000000" target="_blank">
-              +91 90000 00000
-            </a>
-          </li>
-
-          <li>
-            <strong>Contact:</strong>
-            <a href="tel:+919000000000">+91 90000 00000</a>
-          </li>
-
-          <li>
-            <strong>Location:</strong> India
-          </li>
-        </ul>
-      </div>
-
-      <!-- Contact Form -->
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+    <div class="card">
+      <h3>Personal Portfolio Website</h3>
+      <p>
+        A responsive portfolio website built using HTML, CSS, and JavaScript
+        to showcase skills and projects.
+      </p>
     </div>
-  </div>
-</section>
 
-</section>
-<script>
-  const reveals = document.querySelectorAll(".scroll-reveal");
+    <div class="card">
+      <h3>Task Management Application</h3>
+      <p>
+        A JavaScript-based task manager that allows users to add, delete,
+        and manage daily tasks using local storage.
+      </p>
+    </div>
 
-  function revealOnScroll() {
-    reveals.forEach((el) => {
-      const windowHeight = window.innerHeight;
-      const elementTop = el.getBoundingClientRect().top;
-      const revealPoint = 120;
+    <div class="card">
+      <h3>Water Quality Monitoring System</h3>
+      <p>
+        An Arduino and sensor-based project for monitoring water quality
+        parameters in real time.
+      </p>
+    </div>
+  </section>
 
-      if (elementTop < windowHeight - revealPoint) {
-        el.classList.add("active");
-      }
-    });
-  }
+  <!-- CONTACT -->
+  <section class="section">
+    <h2>Contact</h2>
+    <p>Email:
+      <a href="mailto:keneonline01@gmail.com">keneonline01@gmail.com</a>
+    </p>
+    <p>Mobile:
+      <a href="tel:+919146352104">+91 9146352104</a>
+    </p>
+    <p>WhatsApp:
+      <a href="https://wa.me/919146352104" target="_blank">Chat on WhatsApp</a>
+    </p>
+  </section>
 
-  window.addEventListener("scroll", revealOnScroll);
-  revealOnScroll();
-</script>
-
+  <footer class="footer">
+    <p>© 2026 Rushikesh Kene</p>
+  </footer>
 
   <!-- JS -->
-  <script src="js/script.js"></script>
-</b
+  <script src="script.js"></script>
+</body>
+</html>
